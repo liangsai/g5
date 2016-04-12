@@ -187,9 +187,8 @@ td.board-cell-groupB td.board-cell {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	border: 0;
-	min-width: 90%;
-	min-height: 100%;
-	background: url('../images/submitbackground.png') repeat-x;
+
+	background: #940302;
 	
 	cursor: pointer;
 }
@@ -200,9 +199,8 @@ input[type="submit"].game-controls {
 	color: #999999;
 	text-transform: uppercase;
 	border: 0;
-	
-	min-height: 80%;
-	background: url('../images/submitsmallbackground.png') repeat-x;
+
+background: #940302;
 	margin: 8px 0;
 	padding: 2px 16px;
 	cursor: pointer;
@@ -213,11 +211,13 @@ input[type="submit"].game-controls {
 	
 	position: relative;
 	
+	
 }
 
 #buttonSolve {
 	margin-top: 119px;
 	color: #FFAEAE;
+	 
 }
 
 #you-won {
@@ -275,4 +275,5 @@ input[type="submit"].game-controls {
 
    height: 1%;
 	margin-left: 200%;
+	background: #940302;
 }
