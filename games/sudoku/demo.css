@@ -1,0 +1,278 @@
+.content--testdrive table,
+.content--testdrive tr,
+.content--testdrive td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.section--demo-content .container {
+	background: #E10A04 url('../images/backgroundx.png') repeat-x;
+}
+
+#sudoku-wrapper {
+	background: url('../images/background.png') no-repeat top center;
+	min-height: 720px;
+	position: relative;
+	font-family: Arial;
+	color: #FFAEAE;
+	font-size: 12px;
+	padding-top: 0px;
+}
+
+#sudoku-wrapper b {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#main,
+#content,
+#Footer {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#page-title {
+	font-family: Segoe UI, Arial;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 33px;
+}
+
+#sudoku-wrapper a {
+	color: #FFAEAE;
+	text-decoration: none;
+}
+
+#sudoku-wrapper a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#content {
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#column1 {
+	width: 30%;
+	float: left;
+}
+
+#column1 span {
+	padding: 0;
+}
+
+#sudoku-board {
+	width: 90%;
+	
+	float: left;
+	-webkit-box-shadow: 0 0 30px #680301;
+	-moz-box-shadow: 0 0 30px #680301;
+	box-shadow: 0 0 30px #680301;
+	margin-top: 0;
+}
+
+#column2 {
+	width:90%;
+	margin-left: 0px;
+	float: left;
+	margin-top: 0;
+}
+
+td.board-cell-groupA,
+td.board-cell-groupB {
+	background-color: #940302;
+}
+
+td.board-cell-groupA td.board-cell {
+	width: 33%;
+	height: 33%;
+	border: 1px solid #EC0904;
+	background-color: #DA0603;
+}
+
+td.board-cell-groupB td.board-cell {
+	width: 33%;
+	height: 33%;
+	border: 1px solid #D40703;
+	background-color: #C40502;
+}
+
+.static-value {
+	width: 33%;
+	height: 33%;
+	font-family: Segoe UI, Arial;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	color: #6C0000;
+}
+
+.static-value,
+.edit-value {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	/*border: 1px solid #DA0603;*/
+}
+
+.edit-value:hover {
+	background: #940302;
+}
+
+#sudoku-wrapper label {
+	position: relative;
+	top: 15px;
+	line-height: 24px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+#sudoku-wrapper select {
+	font-family: Arial;
+	color: #999999;
+	font-weight: normal;
+	font-size: 12px;
+
+	margin: 2% 8%;
+	min-width: 30%;
+	
+	
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;  
+  
+     background: transparent;
+	padding: 5px;
+   border: 1px solid #ccc;
+
+   height: 10%;
+}
+
+#time-finished {
+	font-family: Segoe UI, Arial;
+	font-size: 46px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.finished-label,
+#time-finished {
+	color: #FBF2A8;
+}
+
+#sudoku-wrapper .board-cell .edit-value input {
+	font-family: Segoe UI, Arial;
+	font-size: 30px;
+	color: #FFFFFF;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	background: none;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	
+	height: auto;
+	margin: auto;
+}
+
+#sudoku-wrapper input[type="submit"] {
+	font-family: Arial;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border: 0;
+	min-width: 90%;
+	min-height: 100%;
+	background: url('../images/submitbackground.png') repeat-x;
+	
+	cursor: pointer;
+}
+
+input[type="submit"].game-controls {
+	font-family: Arial;
+	font-size: 16px;
+	color: #999999;
+	text-transform: uppercase;
+	border: 0;
+	
+	min-height: 80%;
+	background: url('../images/submitsmallbackground.png') repeat-x;
+	margin: 8px 0;
+	padding: 2px 16px;
+	cursor: pointer;
+}
+
+
+.game-control-set {
+	
+	position: relative;
+	
+}
+
+#buttonSolve {
+	margin-top: 119px;
+	color: #FFAEAE;
+}
+
+#you-won {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('../images/shade.png') repeat;
+	margin: 0;
+}
+
+#you-won div {
+	width: 70%;
+	background: #940302;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 40px;
+	margin: 100px auto 0 auto;
+}
+
+#sudoku-wrapper small {
+	font-size: 14px;
+	color: #FFFD7B;
+}
+
+#sudoku-wrapper .no-errors {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0;
+	margin-top: 0;
+}
+
+.errors-found {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ED823F;
+	padding: 0;
+	margin-top: 0;
+}
+
+#sudoku-wrapper .error {
+	border: 1px solid #ED823F;
+}
+#amaze-button{
+	
+	width: 9%;
+	  -moz-appearance:none;
+  -webkit-appearance:none;  
+     background: transparent;
+	padding: 2px;
+   border: 1px solid #ccc;
+
+   height: 1%;
+	margin-left: 200%;
+}
